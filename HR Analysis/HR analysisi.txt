@@ -1,0 +1,19 @@
+Steps to perform Data Pre-processing: 
+
+Step 1: Removing duplicate rows 
+Step 2: Removing rows for which numeric columns are having irrelevant data type values
+Step 3: Remove irrelevant values from each column if any. Validation of all values for a column
+        Check for any inconsistencies or discrepancies in data types, units, or formats.
+        Feel free to add more validation checks which you might feel necessary for the dataset’s integrity
+Step 4: Export the cleaned dataset as a .csv file: prefer UTF-8 encoding.
+Step 5: Convert the pre-processed dataset into an SQL file. 
+Step 6: Manually generate a table by utilizing the database information provided in the "Database Info" tab.
+
+Following Table should be created:
+Table Name: employee
+Table Columns: `employee_id`, `department`, `region`, `education`, `gender`, `recruitment_channel`, `no_of_trainings`,  `age`, `previous_year_rating`, `length_of_service`, `KPIs_met_more_than_80`, `awards_won`, `avg_training_score`
+
+How to finish the current Task?
+Follow these instructions to complete the task after completing the aforementioned steps:
+Step 1: Populate the database information in the "db.py" file.
+Step 2: Click on the "Run Task" button to finalize the task.
